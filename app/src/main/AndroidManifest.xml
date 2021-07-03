@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.example.arcorre"
+    package="com.arCore.arcorre"
     android:targetSandboxVersion="2">
 
     <dist:module dist:instant="true" />
@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Arcorre">
         <activity
-            android:name=".MainActivity"
+            android:name="com.arCore.arcorre.MainActivity"
             android:visibleToInstantApps="true">
 
             <intent-filter>
